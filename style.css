@@ -1,0 +1,98 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    /* Stack elements vertically */
+}
+
+#main_heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Input container for row layout */
+.input_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    /* Take up 45% of the width for text and date */
+    margin-right: 5px;
+    /* Add space between the text input and the date input */
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    /* Set button width relative to the container */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.todo_container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.todo_container div {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo_container div span {
+    font-size: 1rem;
+    color: #333;
+}
+
+.todo_container div button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo_container div button:hover {
+    background-color: #c82333;
+}
