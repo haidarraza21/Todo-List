@@ -31,8 +31,22 @@ A simple and intuitive to-do list application built using HTML, CSS, and JavaScr
 4. **Persistence**:
    - Tasks are saved automatically in the browser's `localStorage`, so they will persist even if you refresh the page.
 
-## Getting Started
+## How to Run
 
 1. Clone this repository:
+
    ```bash
-   git clone https://github.com/your-username/Todo-List.git
+   git clone https://github.com/haidar2111/Todo List.git
+2. Open the index.html file in your preferred web browser.
+
+   
+## Contact
+
+You can connect with me through the following channels:
+
+- **LinkedIn:** [linkedin.com/in/haidar-raza](https://www.linkedin.com/in/haidar-raza-/)
+- **GitHub:** [github.com/haidarraza21](https://github.com/haidarraza21)
+- **Email:** [haidarraza843426@gmail.com](mailto:haidarraza843426@gmail.com)
+
+Thank you for visiting my Todo List! Keep rising 🚀.
+
