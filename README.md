@@ -2,6 +2,10 @@
 
 A simple and intuitive to-do list application built using HTML, CSS, and JavaScript. This project demonstrates the use of `localStorage` to persist tasks across browser sessions. Users can add, view, and delete tasks, with all changes automatically saved in the browser's local storage to ensure that your to-do list remains intact even after refreshing the page.
 
+## Live Demo
+
+Check out the live demo of the application here: [Live Demo](https://haidarraza21.github.io/Todo-List/)
+
 ## Features
 
 - **Add Tasks**: Enter a task description and due date and click "Add" to include it in your list.
